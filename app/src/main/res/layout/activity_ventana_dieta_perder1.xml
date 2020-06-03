@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentanaDietaPerder1"
+    android:background="@drawable/fondo_difuminado">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dieta para perder peso"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Se trata de una dieta excelente como régimen de mantenimiento, pues es muy completa y segura, aunque no permite adelgazar tan rápido como otros planes. No se elimina ningún nutriente pero, como en la mayoría de planes de adelgazamiento prima la ingesta de frutas, vegetales y cereales integrales."
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:text="Desayuno"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="228dp"
+        android:text="Un yogur desnatado y una pieza de fruta, 1/2 taza de avena cocida con una de leche y dos cucharadas de pasas, 1/4 de mango y una bebida sin calorías."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Comida"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="352dp"
+        android:text="Una ensalada de pasta elaborada con una lata de atún, cuatro tazas de pasta cocida, dos tazas de zanahoria y calabacín en dados y cuatro cucharadas de mayonesa baja en calorías y una naranja. Pasteles de quinoa y batata, ensalada mixta con aderezo sin grasa y una bebida sin calorías."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Cena"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:text="Una tercio de una pizza de queso de 12 pulgadas.Una ensalada verde elaborada con media taza de tomate en rodajas, cebolla roja y champiñones. Y dos cucharadas de aliño.1 pizza de pan árabe, 3/4 de taza de frutas mezcladas y una bebida sin calorías"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

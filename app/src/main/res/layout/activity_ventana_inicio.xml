@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242424"
+    tools:context=".VentanaInicio"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_difuminado"
+        android:scaleType="centerCrop"
+        />
+
+
+
+
+    <ImageButton
+        android:id="@+id/bt_guiaEjercicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:src="@mipmap/ic_guias_round"
+        android:background="@android:color/transparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guia Ejercicios"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="67dp"/>
+
+
+
+
+    <ImageButton
+        android:id="@+id/bt_retos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="330dp"
+        android:src="@mipmap/ic_retos_round"
+        android:background="@android:color/transparent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retos"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="98dp"/>
+
+
+
+
+    <ImageButton
+        android:id="@+id/bt_dietas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="180dp"
+        android:src="@mipmap/ic_dietas_round"
+        android:background="@android:color/transparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dietas"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="265dp"/>
+
+
+
+    <ImageButton
+        android:id="@+id/bt_rutinas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="330dp"
+        android:src="@mipmap/ic_rutinas_round"
+        android:background="@android:color/transparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rutinas"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="262dp"/>
+
+
+    <ImageButton
+        android:id="@+id/bt_informacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="450dp"
+        android:src="@mipmap/ic_info_round"
+        android:background="@android:color/transparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="161dp"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimaryDark"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu" />
+
+</RelativeLayout>

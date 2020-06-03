@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitwork">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VentanaSentadillasReto"></activity>
+        <activity android:name=".VentanaFlexionesReto" />
+        <activity android:name=".VentanaDominadasReto" />
+        <activity android:name=".VentanaAbdominalesReto" />
+        <activity android:name=".VentanaRetos" />
+        <activity android:name=".VentanaPreentreno" />
+        <activity android:name=".VentanaCreatina" />
+        <activity android:name=".VentanaCafeina" />
+        <activity android:name=".VentanaProteinas" />
+        <activity android:name=".ResetPassword$VentanaCafeina" />
+        <activity android:name=".VentanaSuplementos" />
+        <activity android:name=".VentanaDietaGanar2" />
+        <activity android:name=".VentanaDietaGanar1" />
+        <activity android:name=".VentanaGanar" />
+        <activity android:name=".VentanaDietaPerder2" />
+        <activity android:name=".VentanaDietaPerder1" />
+        <activity android:name=".VentanaPerder" />
+        <activity android:name=".VentanaInformacion" />
+        <activity android:name=".VentanaDietas" />
+        <activity android:name=".VentanaPrincipiante" />
+        <activity android:name=".VentanaAvanzado" />
+        <activity android:name=".VentanaMedio" />
+        <activity android:name=".VentanaRutinas" />
+        <activity android:name=".VentanaAbdomen" />
+        <activity android:name=".VentanaPiernas" />
+        <activity android:name=".VentanaHombros" />
+        <activity android:name=".VentanaTriceps" />
+        <activity android:name=".VentanaBiceps" />
+        <activity android:name=".VentanaEspalda" />
+        <activity android:name=".VentanaPectoral" />
+        <activity android:name=".VentanaGuia" />
+        <activity android:name=".VentanaForo" />
+        <activity android:name=".VentanaInicio" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".VentanaRegistro" />
+        <activity android:name=".VentanaPerfil" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

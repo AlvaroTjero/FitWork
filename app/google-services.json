@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "99640173559",
+    "firebase_url": "https://fitwork-615cb.firebaseio.com",
+    "project_id": "fitwork-615cb",
+    "storage_bucket": "fitwork-615cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99640173559:android:bb440eed99725a8c1404f2",
+        "android_client_info": {
+          "package_name": "com.example.fitwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99640173559-hjcugrm92l01i82qbkdukjh8di5sedbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitwork",
+            "certificate_hash": "f47c8056069d173d30d326519d1a7e4585aa3725"
+          }
+        },
+        {
+          "client_id": "99640173559-te2kviu2t2mtsns0qcqlajq8oar4f0kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA91w9tYOj2dcaoIlpRmILH2CctnbsZhqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99640173559-te2kviu2t2mtsns0qcqlajq8oar4f0kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
