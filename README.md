@@ -40,3 +40,5 @@ tu correo electrónico.
   - email: pedro@gmail.com   nombre: pedro    password: 123456
   - email: ruben@gmail.com   nombre: ruben    password: 1234567
   - email: jesus@hotmail.com   nombre: jesus    password: 123456
+  
+Link de la presentación: todavía hay que hacerla
