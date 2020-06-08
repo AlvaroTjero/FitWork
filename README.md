@@ -41,7 +41,6 @@ tu correo electrónico.
   - email: ruben@gmail.com   nombre: ruben    password: 1234567
   - email: jesus@hotmail.com   nombre: jesus    password: 123456
   
-Link de la presentación
 Link Video: https://drive.google.com/file/d/1Ji8XWUho1E7wfE7d_OUZi3oct7aE9MZj/view?usp=sharing
 Link Video Comprimido: https://drive.google.com/file/d/1EnaOv8zxIvDSkmuGdHEMsfISOgk7FLV4/view?usp=sharing
 
